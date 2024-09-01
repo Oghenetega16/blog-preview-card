@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: hsl(47, 88%, 63%);
+    font-size: 16px;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    width: 350px;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 0 black;
+    margin-inline: auto;
+    box-shadow: 5px 5px 0px 0px hsl(0, 0%, 7%);
+}
+
+.first-img {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.second-img {
+    width: 30px;
+}
+
+h3 {
+    font-weight: 800;
+    padding: 10px 0 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+}
+
+a:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.text {
+    line-height: 1.3em;
+    padding-bottom: 20px;
+    color: hsl(0, 0%, 50%);
+    font-weight: 500;
+}
+
+.publish {
+    font-size: 13px;
+}
+
+button {
+    padding: 8px 15px 8px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.name-img {
+    display: flex;
+    align-items: center;
+}
+
+h5 {
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+.learn {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.attribution {
+    font-size: 16px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+    .container {
+        margin-top: 40px;
+        margin-bottom: 30px;
+        width: 289px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 0px 0px hsl(0, 0%, 7%);
+    }
+
+    .publish {
+        font-size: 12px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h5 {
+        font-size: 12px;
+    }
+
+    .text {
+        font-size: 13px;
+    }
+
+    .learn {
+        font-size: 12px;
+    }
+
+    .button {
+        padding: 3px 3px 3px 3px;
+    }
+
+    .attribution {
+        font-size: 12px;
+    }
+}
